@@ -5,32 +5,15 @@ body::-webkit-scrollbar {
 body {
     margin: 0;
     padding: 0;
-    background-image: url("https://dl.dropboxusercontent.com/scl/fi/21pcgobjoca4z92xds3rd/lemans2.png?rlkey=t8doj6iz2j4skgpbzvx3zgcb8");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center bottom;
 }
 
-#body #title {
-    margin-top: 17.5vh;
-    margin-left: 17.5vw;
-}
-
-@media (max-width: 1000px) {
-    #body #title {
-        margin: 20rem 0 0 0;
-        text-align: center;
-    }
-}
-
-#title p {
-    font-family: 'Knockout', sans-serif;
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: white;
-    margin-top: -1rem;
-    margin-bottom: -1rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-width: white;
+#background-video {
+    z-index: -1;
+    position: absolute;
+    filter: brightness(30%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
