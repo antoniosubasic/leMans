@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    font-family: "Segoe UI", sans-serif;
+    padding: 7.5rem 5rem 0 5rem;
+}
+
+main h1 {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: -0.05rem;
+    margin-bottom: 0;
+}
+
+main a,
+main a:visited {
+    color: #0a61d3;
+}

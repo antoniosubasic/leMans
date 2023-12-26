@@ -1,24 +1,3 @@
-body::-webkit-scrollbar {
-    display: none;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
-main {
-    font-family: "Segoe UI", sans-serif;
-    padding: 7.5rem 5rem 0 7.5rem;
-}
-
-main h1 {
-    font-family: "Quicksand", sans-serif;
-    letter-spacing: -0.05rem;
-    margin-bottom: 0;
-}
-
 main div.content {
     padding-bottom: 3rem;
     display: flex;
@@ -33,11 +12,6 @@ main div.content:last-child {
 
 main div.content div.text {
     margin-right: 7.5rem;
-}
-
-main div.content div.text p a,
-main div.content div.text p a:visited {
-    color: #0a61d3;
 }
 
 main div.content div.text p em.important {
