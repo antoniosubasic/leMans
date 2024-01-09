@@ -1,4 +1,4 @@
-main div.content {
+dl dd {
     padding-bottom: 3rem;
     display: flex;
     flex-direction: row;
@@ -6,20 +6,16 @@ main div.content {
     align-items: center;
 }
 
-main div.content:last-child {
-    padding-bottom: 5rem;
-}
-
-main div.content div.text {
+dl dd div.text {
     margin-right: 7.5rem;
 }
 
-main div.content div.text p em.important {
+dl dd div.text p em.important {
     font-style: normal;
     font-weight: bold;
 }
 
-main div.content div.img img {
+dl dd div.img img {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -29,17 +25,17 @@ main div.content div.img img {
     width: 400px;
 }
 
-main div.content div.img p {
+dl dd div.img p {
     font-size: 0.9rem;
     text-align: center;
     margin: 0.1rem 0 0 0;
     padding: 0;
 }
 
-main div.content div#porsche-mazda img {
+dl dd div#porsche-mazda img {
     width: 325px;
 }
 
-main div.content div#porsche-mazda p:first-of-type {
+dl dd div#porsche-mazda p:first-of-type {
     margin-bottom: 1rem;
 }

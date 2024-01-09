@@ -1,0 +1,15 @@
+nav {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.479);
+}
+
+nav ul li {
+    margin: 0.25rem 5rem;
+}
+
+nav ul li a,
+nav ul li a:visited {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.25rem !important;
+    text-transform: uppercase;
+    text-align: center;
+}
