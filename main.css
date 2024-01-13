@@ -4,16 +4,21 @@
 
 main {
     padding: 3rem;
-    padding-bottom: 0;
 }
 
 main h1 {
     font-family: "Quicksand", sans-serif;
     letter-spacing: -0.05rem;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 main a,
 main a:visited {
     color: #0a61d3;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        padding: 2rem 1rem;
+    }
 }

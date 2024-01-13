@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px) {
+    dl dd {
+        display: block;
+    }
+
+    dl dd div.text {
+        margin-right: 0;
+    }
+
+    dl dd div.img img {
+        width: calc(100vw - 2rem) !important;
+    }
+}
