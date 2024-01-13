@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    section#today div.content {
+        flex-direction: column;
+    }
+
+    section img:not(td img),
+    section#today div.content div.data,
+    section#history div.content div.content-text {
+        width: calc(100vw - 2rem) !important;
+    }
+
+    section#today table#fastest-lap td > div {
+        gap: 0.4rem;
+    }
+
+    section#history div.content > div {
+        flex-direction: column !important;
+    }
+
+    section#history div.content {
+        gap: 4rem;
+    }
+
+    section#history div.content > div {
+        gap: 0;
+    }
+}

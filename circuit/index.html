@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="../navbar.css" />
         <link rel="stylesheet" href="../main.css" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
     </head>
 
     <body>
@@ -40,7 +41,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div
-                    class="collapse navbar-collapse justify-content-md-center p-1"
+                    class="collapse navbar-collapse justify-content-md-center"
                     id="navbarSupportedContent"
                 >
                     <ul class="navbar-nav">
@@ -74,8 +75,8 @@
                         src="../src/img/circuit/2006_.png"
                         alt="Today's Le Mans circuit"
                     />
-                    <div>
-                        <table id="general">
+                    <div class="data">
+                        <table id="general" class="table">
                             <tr>
                                 <th>Name</th>
                                 <td>Circuit de la Sarthe</td>
@@ -112,7 +113,7 @@
                                 <td>38</td>
                             </tr>
                         </table>
-                        <table id="fastest-lap">
+                        <table id="fastest-lap" class="table">
                             <thead>
                                 <tr>
                                     <th colspan="2">Fastest Lap</th>
@@ -122,68 +123,72 @@
                                     <th>2017</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody class="table-group-divider">
                                 <tr>
+                                    <td><p>3:13.90</p></td>
+                                    <td><p>3:14.791</p></td>
+                                </tr>
+                                <tr id="driver">
                                     <td>
                                         <div>
-                                            <div><p>3:13.90</p></div>
-                                            <div class="driver">
-                                                <img
-                                                    src="https://flagicons.lipis.dev/flags/4x3/mx.svg"
-                                                    alt="Mexican flag"
-                                                    title="Mexico"
-                                                />
-                                                <p>
-                                                    <a
-                                                        href="https://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver)"
-                                                        >Pedro Rodríguez</a
-                                                    >
-                                                </p>
-                                            </div>
-                                            <div class="car">
-                                                <img
-                                                    src="https://upload.wikimedia.org/wikipedia/de/2/2d/Porsche_Wappen.svg"
-                                                    alt="Porsche logo"
-                                                    title="Porsche"
-                                                />
-                                                <p>
-                                                    <a
-                                                        href="https://en.wikipedia.org/wiki/Porsche_917"
-                                                        >Porsche 917</a
-                                                    >
-                                                </p>
-                                            </div>
+                                            <img
+                                                src="https://flagicons.lipis.dev/flags/4x3/mx.svg"
+                                                alt="Mexican flag"
+                                                title="Mexico"
+                                            />
+                                            <p>
+                                                <a
+                                                    href="https://en.wikipedia.org/wiki/Pedro_Rodr%C3%ADguez_(racing_driver)"
+                                                    >Pedro Rodríguez</a
+                                                >
+                                            </p>
                                         </div>
                                     </td>
                                     <td>
                                         <div>
-                                            <div><p>3:14.791</p></div>
-                                            <div class="driver">
-                                                <img
-                                                    src="https://flagicons.lipis.dev/flags/4x3/jp.svg"
-                                                    alt="Japanese flag"
-                                                    title="Japan"
-                                                />
-                                                <p>
-                                                    <a
-                                                        href="https://en.wikipedia.org/wiki/Kamui_Kobayashi"
-                                                        >Kamui Kobayashi</a
-                                                    >
-                                                </p>
-                                            </div>
-                                            <div class="car">
-                                                <img
-                                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Toyota_EU.svg"
-                                                    alt="Toyota logo"
-                                                    title="Toyota"
-                                                />
-                                                <p>
-                                                    <a
-                                                        href="https://en.wikipedia.org/wiki/Toyota_TS050_Hybrid"
-                                                        >Toyota TS050 Hybrid</a
-                                                    >
-                                                </p>
-                                            </div>
+                                            <img
+                                                src="https://flagicons.lipis.dev/flags/4x3/jp.svg"
+                                                alt="Japanese flag"
+                                                title="Japan"
+                                            />
+                                            <p>
+                                                <a
+                                                    href="https://en.wikipedia.org/wiki/Kamui_Kobayashi"
+                                                    >Kamui Kobayashi</a
+                                                >
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr id="car">
+                                    <td>
+                                        <div>
+                                            <img
+                                                src="https://upload.wikimedia.org/wikipedia/de/2/2d/Porsche_Wappen.svg"
+                                                alt="Porsche logo"
+                                                title="Porsche"
+                                            />
+                                            <p>
+                                                <a
+                                                    href="https://en.wikipedia.org/wiki/Porsche_917"
+                                                    >Porsche 917</a
+                                                >
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <img
+                                                src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Toyota_EU.svg"
+                                                alt="Toyota logo"
+                                                title="Toyota"
+                                            />
+                                            <p>
+                                                <a
+                                                    href="https://en.wikipedia.org/wiki/Toyota_TS050_Hybrid"
+                                                    >Toyota TS050 Hybrid</a
+                                                >
+                                            </p>
                                         </div>
                                     </td>
                                 </tr>
