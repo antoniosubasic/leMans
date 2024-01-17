@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
     dl dd {
-        display: block;
+        flex-direction: column;
     }
 
     dl dd div.text {
@@ -8,6 +8,6 @@
     }
 
     dl dd div.img img {
-        width: calc(100vw - 2rem) !important;
+        width: 100%;
     }
 }

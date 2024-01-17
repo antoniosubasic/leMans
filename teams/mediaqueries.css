@@ -1,0 +1,15 @@
+@media screen and (max-width: 1150px) {
+    div.cards {
+        flex-direction: column;
+    }
+
+    div.cards > div,
+    div.card {
+        width: 100%;
+    }
+
+    ul.drivers {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}
