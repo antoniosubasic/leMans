@@ -87,8 +87,9 @@ section#history div.content > div:nth-child(odd) {
     flex-direction: row-reverse;
 }
 
-section#history div.content div.content-text {
-    width: 45rem;
+section#history div.content div.content-text,
+section#history div.content img {
+    width: 50%;
 }
 
 section#history div.content div.content-text h1 {
