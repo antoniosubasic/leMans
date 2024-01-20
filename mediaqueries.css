@@ -7,6 +7,10 @@
         margin-right: 0;
     }
 
+    dl dd div#porsche-mazda img {
+        width: calc(100vw - 2rem);
+    }
+
     dl dd div.img img {
         width: 100%;
     }
