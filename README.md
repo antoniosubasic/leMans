@@ -1,4 +1,4 @@
-This page contains data sourced from
+This page contains data sourced in early 2024 from
 - [Wikipedia](https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans)
 - [Official Le Mans Website](https://www.24h-lemans.com/en)
 - [Automobile Club de l'Ouest](https://www.lemans.org/en)
