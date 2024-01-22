@@ -12,6 +12,23 @@ main {
     align-items: center;
 }
 
+#partners-carousel {
+    width: 65vw;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-control-prev {
+    left: 6vw;
+}
+
+.carousel-control-next {
+    right: 6vw;
+}
+
 .carousel-item > a {
     display: flex;
     justify-content: center;
