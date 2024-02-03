@@ -20,3 +20,44 @@ nav ul li a:visited {
     outline: none;
     box-shadow: none;
 }
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item::before,
+.nav-item::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: calc(100% + 5vw);
+    height: 2px;
+    transition: transform 0.3s ease;
+}
+
+.nav-item::before {
+    top: -3px;
+    left: -2.5vw;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.nav-item::after {
+    bottom: -3px;
+    right: -2.5vw;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.nav-item:hover::before,
+.nav-item:hover::after {
+    transform: scaleX(1);
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-item::before,
+    .nav-item::after {
+        transition: none;
+        height: 0;
+    }
+}
